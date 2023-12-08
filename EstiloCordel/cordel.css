@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonth1: 'Passion one', Arial, sans-serif;
+    --fontText: 'Sriracha', Arial, sans-serif;  
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: white;
+    font-family: var(--fontText);
+}
+
+header {
+    background-color: black;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
+    font-family: var(--fonth1);
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+header p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+}
+
+header p > a {
+    text-decoration: none;
+    color: white;
+}
+
+header p > a:hover {
+    text-decoration: underline;
+    background-color: rgba(53, 52, 52, 0.986);
+    transition-duration: 0.5s;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+article {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 2.2em;
+    padding-top: 20px;
+}
+
+article p {
+    padding-left: 40px;
+    width: 400px;
+}
+
+div#joaninha {
+    background-image: url('../imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 550px;
+
+}
+
+div#letras {
+    background-image: url('../imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 550px;
+
+}
+
+p.quadrado {
+    color: white;
+    width: 400px;
+    height: 470px;
+    margin: 30px 30px 30px 30px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.445);
+    
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+   
+}
+
+footer p {
+    color: white;
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: rgb(73, 73, 73);
+    border-radius: 15px;
+    padding: 5px;
+    transition-duration: 0.5s;
+}
